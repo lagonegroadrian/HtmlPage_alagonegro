@@ -1,0 +1,1 @@
+<div class="ps-badge"><span>New</span></div>

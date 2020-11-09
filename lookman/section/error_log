@@ -1,0 +1,76 @@
+[16-Nov-2019 15:08:19 Europe/London] PHP Fatal error:  Uncaught Error: Class 'BasedeDatosmysqli' not found in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 18
+[16-Nov-2019 15:10:01 Europe/London] PHP Fatal error:  Uncaught Error: Class 'BasedeDatosmysqli' not found in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 19
+[16-Nov-2019 15:11:31 Europe/London] PHP Fatal error:  Uncaught Error: Class 'BasedeDatosmysqli' not found in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 23
+[16-Nov-2019 15:17:47 Europe/London] PHP Fatal error:  Uncaught Error: Class 'BasedeDatosmysqli' not found in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 24
+[16-Nov-2019 15:20:16 Europe/London] PHP Warning:  require(autoload.php): failed to open stream: No such file or directory in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 13
+[16-Nov-2019 15:20:16 Europe/London] PHP Fatal error:  require(): Failed opening required 'autoload.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 13
+[16-Nov-2019 15:21:11 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 28
+[16-Nov-2019 15:21:11 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 40
+[16-Nov-2019 15:21:11 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 40
+[16-Nov-2019 15:27:26 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 37
+[16-Nov-2019 15:27:26 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 37
+[16-Nov-2019 15:29:46 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 37
+[16-Nov-2019 15:29:46 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 37
+[16-Nov-2019 17:22:12 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 37
+[16-Nov-2019 17:22:12 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 37
+[16-Nov-2019 17:24:41 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 26
+[16-Nov-2019 17:24:41 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 41
+[16-Nov-2019 17:24:41 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 41
+[16-Nov-2019 17:27:28 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 26
+[16-Nov-2019 17:27:28 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 28
+[16-Nov-2019 17:27:28 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 42
+[16-Nov-2019 17:27:28 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 42
+[16-Nov-2019 17:44:26 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 40
+[16-Nov-2019 17:44:26 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 42
+[16-Nov-2019 17:44:26 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:44:26 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:46:43 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 40
+[16-Nov-2019 17:46:43 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 42
+[16-Nov-2019 17:46:43 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:46:43 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:49:01 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 40
+[16-Nov-2019 17:49:01 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 42
+[16-Nov-2019 17:49:01 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:49:01 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:49:23 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 40
+[16-Nov-2019 17:49:23 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 42
+[16-Nov-2019 17:49:23 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:49:23 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:50:41 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 40
+[16-Nov-2019 17:50:41 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 42
+[16-Nov-2019 17:50:41 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:50:41 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 56
+[16-Nov-2019 17:55:03 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 33
+[16-Nov-2019 17:55:03 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 35
+[16-Nov-2019 17:55:03 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 17:55:03 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 17:57:28 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 33
+[16-Nov-2019 17:57:28 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 35
+[16-Nov-2019 17:57:28 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 17:57:28 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 17:58:24 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 33
+[16-Nov-2019 17:58:24 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 35
+[16-Nov-2019 17:58:24 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 17:58:24 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 18:03:47 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 33
+[16-Nov-2019 18:03:47 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 35
+[16-Nov-2019 18:03:47 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 18:03:47 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 18:10:09 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 33
+[16-Nov-2019 18:10:09 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 35
+[16-Nov-2019 18:10:09 Europe/London] PHP Notice:  Undefined variable: productoOK in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 18:10:09 Europe/London] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 49
+[16-Nov-2019 19:10:30 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 37
+[16-Nov-2019 19:12:38 Europe/London] PHP Notice:  Undefined variable: _cat_producto in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/section/listarprod.php on line 37

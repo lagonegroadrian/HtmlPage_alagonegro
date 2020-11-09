@@ -1,0 +1,1 @@
+<a class="ps-shoe__favorite" href="#"><i class="ps-icon-heart"></i></a>

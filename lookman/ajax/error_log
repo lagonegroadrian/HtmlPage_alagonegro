@@ -1,0 +1,2 @@
+[15-Dec-2019 05:35:09 Europe/London] PHP Notice:  Trying to get property 'categoriaselect' of non-object in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/ajax/getsubcategoria.php on line 15
+[15-Dec-2019 05:35:09 Europe/London] PHP Notice:  Trying to get property 'categoriaselect' of non-object in /home/asdavinc/public_materias/produccion-web/acn3a/2019-2/equipo-12/ajax/getsubcategoria.php on line 19

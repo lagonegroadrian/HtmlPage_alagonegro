@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Classic Style a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Register :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Classic Style Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="../js/jquery.min.js"></script>
+<!-- //js -->
+<!-- cart -->
+<script src="../js/simpleCart.min.js"></script>
+<!-- cart -->
+<!-- for bootstrap working -->
+<script type="text/javascript" src="../js/bootstrap-3.1.1.min.js"></script>
+<!-- //for bootstrap working -->
+<!-- animation-effect -->
+<link href="../css/animate.min.css" rel="stylesheet"> 
+<script src="../js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!-- //animation-effect -->
+<link href='//fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'></head>
+	
+<body>
+
+<!-- header -->
+	<?php include("../section/header.php"); ?>
+<!-- //header -->
+
+
+<!--banner-->
+<div class="banner-top">
+	<div class="container">
+		<h2 class="animated wow fadeInLeft" data-wow-delay=".5s">Register</h2>
+		<h3 class="animated wow fadeInRight" data-wow-delay=".5s"><a href="../index.php">Home</a><label>/</label>Register</h3>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- contact -->
+	<div class="login">
+		<div class="container">
+		<form>
+			<div class="col-md-6 login-do1 animated wow fadeInLeft" data-wow-delay=".5s">
+				<div class="login-mail">
+					<input type="text" placeholder="Email" required="">
+					<i class="glyphicon glyphicon-envelope"></i>
+				</div>
+				<div class="login-mail">
+					<input type="password" placeholder="Password" required="">
+					<i class="glyphicon glyphicon-lock"></i>
+				</div>
+				<div class="login-mail">
+					<input type="password" placeholder="Repeated password" required="">
+					<i class="glyphicon glyphicon-lock"></i>
+				</div>
+				  <a class="news-letter" href="#">
+						 <label class="checkbox1"><input type="checkbox" name="checkbox" ><i> </i>I agree with the terms</label>
+					   </a>
+	
+			</div>
+			<div class="col-md-6 login-do animated wow fadeInRight" data-wow-delay=".5s">
+				<label class="hvr-sweep-to-top login-sub">
+					<input type="submit" value="Submit">
+					</label>
+					<p>Already register</p>
+				<a href="login.php" class="hvr-sweep-to-top">Login</a>
+			</div>
+			<div class="clearfix"> </div>
+			</form>
+		</div>
+
+
+	</div>
+
+
+<!-- social -->
+	<?php include("../section/social.php"); ?>
+<!-- //social -->
+
+<!-- footer -->
+	<?php include("../section/footer.php"); ?>
+<!-- //footer -->
+
+</body>
+</html>

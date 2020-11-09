@@ -1,0 +1,125 @@
+
+1. Agregar central de quejas + ABM + Perfil
+2. Revisar como bajar la calidad de las imagenes
+-----3. Probar acceso de usuarios
+-----4. Agregar porcentaje de ventas --> https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_progressbar4&stacked=h
+		repo_estado_fichas.php
+5. Armar ABM para trivia - pregunta - opcion
+6. Agregar botones para retorno
+7. Agregar perfil cuando sacas reporte por trivia y por pregunta
+8. Agregar ABM con Mensajes
+9. Perfiles con check box
+10 Agregar Fecha de cumpleaños
+11 Agregar Telefonos
+12 Colgar los telefonos en el index
+
+
+CANTIDAD DE FICHAS POR MES
+
+SELECT 
+COUNT(nroSolicitud),
+fechaCarga,
+gerente,
+SUBSTRING(fechaCarga, 7, 4) AS anho,
+SUBSTRING(fechaCarga, 4, 2) AS mes,
+CONCAT(SUBSTRING(fechaCarga, 7, 4), SUBSTRING(fechaCarga, 4, 2) ) AS anho_mes
+FROM liquidacion
+where SUBSTRING(fechaCarga, 7, 4) = '2019'
+and gerente like '%BERNA%'
+GROUP BY CONCAT(SUBSTRING(fechaCarga, 7, 4), SUBSTRING(fechaCarga, 4, 2) ) , gerente
+HAVING COUNT(nroSolicitud) > 0  
+ORDER BY gerente, 6
+
+
+
+
+*ESTADOS DE SOLICITUD*
+
+CANCELADA
+FINALIZADA
+RECHAZADA EN CONTROL FISICO
+RECHAZADA EN CONTROL FINAL
+ABIERTA
+
+
+
+
+
+
+
+
+
+
+SELECT 
+COUNT(nroSolicitud),
+fechaCarga,
+gerente,
+SUBSTRING(fechaCarga, 7, 4) AS anho,
+SUBSTRING(fechaCarga, 4, 2) AS mes,
+CONCAT(SUBSTRING(fechaCarga, 7, 4), SUBSTRING(fechaCarga, 4, 2) ) AS anho_mes,
+estadoSolicitud
+FROM liquidacion
+where SUBSTRING(fechaCarga, 7, 4) = '2019'
+and gerente like '%BERNA%'
+GROUP BY CONCAT(SUBSTRING(fechaCarga, 7, 4), SUBSTRING(fechaCarga, 4, 2) ) , estadoSolicitud
+HAVING COUNT(nroSolicitud) > 0  
+ORDER BY gerente, 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT 
+COUNT(nroSolicitud), 
+fechaCarga, 
+gerente, 
+SUBSTRING(fechaCarga, 7, 4) AS anho, 
+SUBSTRING(fechaCarga, 4, 2) AS mes, 
+CONCAT(SUBSTRING(fechaCarga, 7, 4), 
+SUBSTRING(fechaCarga, 4, 2) ) AS anho_mes 
+FROM 
+liquidacion where SUBSTRING(fechaCarga, 7, 4) = YEAR(CURDATE()) 
+and gerente like '%BERNA%' 
+GROUP BY CONCAT(SUBSTRING(fechaCarga, 7, 4), SUBSTRING(fechaCarga, 4, 2) ) , gerente 
+HAVING COUNT(nroSolicitud) > 0 ORDER BY gerente, 6
